@@ -1,7 +1,5 @@
+import AppShell from '@/components/AppShell';
+
 export default function Home() {
-  return (
-    <div className="flex justify-center items-center h-screen">
-      Macaly Template Starter
-    </div>
-  )
+  return <AppShell />;
 }

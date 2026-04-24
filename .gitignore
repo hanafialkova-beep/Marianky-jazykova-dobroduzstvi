@@ -52,3 +52,6 @@ next-env.d.ts
 .npmrc
 .config
 .sudo_as_admin_successful
+.next
+node_modules
+.bash*
