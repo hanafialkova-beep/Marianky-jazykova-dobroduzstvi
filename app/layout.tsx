@@ -1,10 +1,9 @@
 import "./globals.css";
-import { MacalySandboxBridge } from '../.sandbox/sandbox-bridge';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Mariančina jazyková dobrodružství 📚",
-  description: "Interaktivní výuková aplikace pro procvičování českého pravopisu — 3. třída ZŠ",
+  description: "Interaktivní výuková aplikace pro procvičování českého pravopisu pro 3. třídu ZŠ",
 };
 
 export default function RootLayout({
@@ -14,9 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="cs">
-      <MacalySandboxBridge><body suppressHydrationWarning={true}>
-        {children}
-      </body></MacalySandboxBridge>
+      <body suppressHydrationWarning={true}>{children}</body>
     </html>
   );
 }
