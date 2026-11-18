@@ -34,7 +34,7 @@ export default function MultiBlanks({ question, onAnswer }: Props) {
     if (nextBlank !== -1) {
       setActiveBlank(nextBlank);
     } else {
-      // All filled — advance active to last filled for visual clarity
+      // All filled: advance active to last filled for visual clarity
       setActiveBlank(blanks.length - 1);
     }
   }
@@ -96,7 +96,7 @@ export default function MultiBlanks({ question, onAnswer }: Props) {
         </p>
       </div>
 
-      {/* Blank label and options — only when state is idle */}
+      {/* Blank label and options: only when state is idle */}
       {state === 'idle' && (
         <div className="flex flex-col gap-3">
           {/* Active blank label */}

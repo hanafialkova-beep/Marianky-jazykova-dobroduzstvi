@@ -15,25 +15,25 @@ const module11: ModuleData = {
       id: 'm11q1', type: 'A',
       sentence: 'Malá r_ba plave v čistém rybníku.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'R_BA — R je tvrdá souhláska, píšeme vždy Y.',
+      explanation: 'R_BA: R je tvrdá souhláska, píšeme vždy Y.',
     },
     {
       id: 'm11q2', type: 'A',
       sentence: 'Babička b_dlí v domku u lesa.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'B_DLÍ — příbuzné se slovem BYDLET (vyjmenované po B), píšeme Y.',
+      explanation: 'B_DLÍ: příbuzné se slovem BYDLET (vyjmenované po B), píšeme Y.',
     },
     {
       id: 'm11q3', type: 'B',
       sentence: 'Sova je v noci ___ jak šedý stín.',
       options: ['bystrá', 'bistrá', 'bystria', 'bistria'], correct: 'bystrá',
-      explanation: 'BYSTRÁ — příbuzné se slovem BYSTRÝ (vyjmenované po B), píšeme Y.',
+      explanation: 'BYSTRÁ: příbuzné se slovem BYSTRÝ (vyjmenované po B), píšeme Y.',
     },
     {
       id: 'm11q4', type: 'C',
       text: 'Bidlíme u babičky na prázdninách.',
       isCorrect: false, wrongWord: 'Bidlíme', correctWord: 'Bydlíme',
-      explanation: 'B_DLÍME — příbuzné se slovem BYDLET (vyjmenované po B), píšeme Y!',
+      explanation: 'B_DLÍME: příbuzné se slovem BYDLET (vyjmenované po B), píšeme Y!',
     },
     {
       id: 'm11q5', type: 'D',
@@ -51,7 +51,7 @@ const module11: ModuleData = {
         { label: 'tvrdá souhláska R', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po B (bydlet)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'R_BA — R je tvrdá souhláska! B_DLÍ — příbuzné se slovem BYDLET (po B).',
+      explanation: 'R_BA: R je tvrdá souhláska! B_DLÍ: příbuzné se slovem BYDLET (po B).',
     },
     {
       id: 'm11q7', type: 'F',
@@ -60,7 +60,7 @@ const module11: ModuleData = {
         { label: 'tvrdá souhláska K', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po B (bystrý)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'K_TKA — K je tvrdá souhláska! B_STRÁ — příbuzné se slovem BYSTRÝ (po B).',
+      explanation: 'K_TKA: K je tvrdá souhláska! B_STRÁ: příbuzné se slovem BYSTRÝ (po B).',
     },
     {
       id: 'm11q8', type: 'F',
@@ -69,7 +69,7 @@ const module11: ModuleData = {
         { label: 'příbuzné po B (bylina)', options: ['i', 'y'], correct: 'y' },
         { label: 'tvrdá souhláska D', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'B_LINKA — příbuzné se slovem BYLINA (po B)! D_M — D je tvrdá souhláska.',
+      explanation: 'B_LINKA: příbuzné se slovem BYLINA (po B)! D_M: D je tvrdá souhláska.',
     },
     {
       id: 'm11q9', type: 'F',
@@ -79,7 +79,7 @@ const module11: ModuleData = {
         { label: 'příbuzné po B (bydlet)', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po B (bystrý)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'T_GR — T je tvrdá souhláska! B_DLÍ — příbuzné se slovem BYDLET! B_STRÝ — příbuzné se slovem BYSTRÝ.',
+      explanation: 'T_GR: T je tvrdá souhláska! B_DLÍ: příbuzné se slovem BYDLET! B_STRÝ: příbuzné se slovem BYSTRÝ.',
     },
   ],
 };
@@ -92,32 +92,32 @@ const module12: ModuleData = {
   difficulty: 2,
   badge: 'Hvězdný pěvec Lyry',
   badgeIcon: '🎵',
-  description: 'Vyjmenovaná po L a M, plus měkké souhlásky — vždy I!',
+  description: 'Vyjmenovaná po L a M, plus měkké souhlásky: vždy I!',
   color: 'from-violet-500 to-purple-700',
   questions: [
     {
       id: 'm12q1', type: 'A',
       sentence: 'L_žař sjíždí rychle ze svahu dolů.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'L_ŽAŘ — příbuzné se slovem LYŽE (vyjmenované po L), píšeme Y.',
+      explanation: 'L_ŽAŘ: příbuzné se slovem LYŽE (vyjmenované po L), píšeme Y.',
     },
     {
       id: 'm12q2', type: 'A',
       sentence: 'Ž_rafa je nejštíhlejší zvíře na světě.',
       options: ['i', 'y'], correct: 'i',
-      explanation: 'Ž_RAFA — Ž je měkká souhláska, píšeme vždy I.',
+      explanation: 'Ž_RAFA: Ž je měkká souhláska, píšeme vždy I.',
     },
     {
       id: 'm12q3', type: 'B',
       sentence: 'V létě ___ létá kolem lampy.',
       options: ['hmyz', 'hmis', 'hmyc', 'hmíz'], correct: 'hmyz',
-      explanation: 'HMYZ — vyjmenované slovo po M, píšeme Y.',
+      explanation: 'HMYZ: vyjmenované slovo po M, píšeme Y.',
     },
     {
       id: 'm12q4', type: 'C',
       text: 'Lytko mě bolí po závodě.',
       isCorrect: false, wrongWord: 'Lytko', correctWord: 'Lýtko',
-      explanation: 'L_TKO — příbuzné se slovem LÝKO (vyjmenované po L), píšeme dlouhé Ý!',
+      explanation: 'L_TKO: příbuzné se slovem LÝKO (vyjmenované po L), píšeme dlouhé Ý!',
     },
     {
       id: 'm12q5', type: 'D',
@@ -135,7 +135,7 @@ const module12: ModuleData = {
         { label: 'příbuzné po L (lyžař)', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po M (mýt)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'L_ŽAŘ — příbuzné se slovem LYŽE (po L)! UM_L — příbuzné se slovem MÝT (po M).',
+      explanation: 'L_ŽAŘ: příbuzné se slovem LYŽE (po L)! UM_L: příbuzné se slovem MÝT (po M).',
     },
     {
       id: 'm12q7', type: 'F',
@@ -144,7 +144,7 @@ const module12: ModuleData = {
         { label: 'měkká souhláska Ž', options: ['i', 'y'], correct: 'i' },
         { label: 'vyjmenované po M (myš)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'Ž_RAFA — Ž je měkká souhláska, píšeme I! M_Š — vyjmenované slovo po M.',
+      explanation: 'Ž_RAFA: Ž je měkká souhláska, píšeme I! M_Š: vyjmenované slovo po M.',
     },
     {
       id: 'm12q8', type: 'F',
@@ -153,7 +153,7 @@ const module12: ModuleData = {
         { label: 'příbuzné po L (blýskat)', options: ['í', 'ý'], correct: 'ý' },
         { label: 'vyjmenované po M (mýdlo)', options: ['í', 'ý'], correct: 'ý' },
       ],
-      explanation: 'BL_SKAVICE — příbuzné se slovem BLÝSKAT (po L), dlouhé Ý! M_DLO — vyjmenované MÝDLO po M.',
+      explanation: 'BL_SKAVICE: příbuzné se slovem BLÝSKAT (po L), dlouhé Ý! M_DLO: vyjmenované MÝDLO po M.',
     },
     {
       id: 'm12q9', type: 'F',
@@ -162,7 +162,7 @@ const module12: ModuleData = {
         { label: 'měkká souhláska Š', options: ['i', 'y'], correct: 'i' },
         { label: 'příbuzné po L (lyžař)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'Š_ŠKA — Š je měkká souhláska, píšeme I! L_ŽAŘ — příbuzné se slovem LYŽE (po L).',
+      explanation: 'Š_ŠKA: Š je měkká souhláska, píšeme I! L_ŽAŘ: příbuzné se slovem LYŽE (po L).',
     },
   ],
 };
@@ -182,25 +182,25 @@ const module13: ModuleData = {
       id: 'm13q1', type: 'A',
       sentence: 'Honzík je p_šný na svůj pěkný výkres.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'P_ŠNÝ — příbuzné se slovem PÝCHA (vyjmenované po P), píšeme Y.',
+      explanation: 'P_ŠNÝ: příbuzné se slovem PÝCHA (vyjmenované po P), píšeme Y.',
     },
     {
       id: 'm13q2', type: 'A',
       sentence: 'Maminka _pívá při vaření oběda.',
       options: ['s', 'z'], correct: 'z',
-      explanation: '_PÍVÁ — předpona Z- (zpívat = začátek zpěvu, změna stavu).',
+      explanation: '_PÍVÁ: předpona Z- (zpívat = začátek zpěvu, změna stavu).',
     },
     {
       id: 'm13q3', type: 'B',
       sentence: 'Lesní lupič se nazývá ___.',
       options: ['pytlák', 'pitlák', 'pytlik', 'pitlik'], correct: 'pytlák',
-      explanation: 'PYTLÁK — vyjmenované slovo po P, píšeme Y.',
+      explanation: 'PYTLÁK: vyjmenované slovo po P, píšeme Y.',
     },
     {
       id: 'm13q4', type: 'C',
       text: 'Honzík zbalil kufr na výlet.',
       isCorrect: false, wrongWord: 'zbalil', correctWord: 'sbalil',
-      explanation: '_BALIL — předpona S- (sbalit = dát věci dohromady). Předpona Z- by byla špatně!',
+      explanation: '_BALIL: předpona S- (sbalit = dát věci dohromady). Předpona Z- by byla špatně!',
     },
     {
       id: 'm13q5', type: 'D',
@@ -218,7 +218,7 @@ const module13: ModuleData = {
         { label: 'příbuzné po P (pýcha)', options: ['i', 'y'], correct: 'y' },
         { label: 'vyjmenované po S (syn)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'P_ŠNÝ — příbuzné se slovem PÝCHA (po P)! S_N — vyjmenované slovo SYN po S.',
+      explanation: 'P_ŠNÝ: příbuzné se slovem PÝCHA (po P)! S_N: vyjmenované slovo SYN po S.',
     },
     {
       id: 'm13q7', type: 'F',
@@ -227,7 +227,7 @@ const module13: ModuleData = {
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 's' },
         { label: 'vyjmenované po P (pyl)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: '_BALIL — předpona S- = dohromady! P_L — vyjmenované slovo PYL po P.',
+      explanation: '_BALIL: předpona S- = dohromady! P_L: vyjmenované slovo PYL po P.',
     },
     {
       id: 'm13q8', type: 'F',
@@ -236,7 +236,7 @@ const module13: ModuleData = {
         { label: 'vyjmenované po S (syn)', options: ['i', 'y'], correct: 'y' },
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 'z' },
       ],
-      explanation: 'S_N — vyjmenované slovo SYN po S! _PÍVÁ — předpona Z- (zpívat).',
+      explanation: 'S_N: vyjmenované slovo SYN po S! _PÍVÁ: předpona Z- (zpívat).',
     },
     {
       id: 'm13q9', type: 'F',
@@ -246,7 +246,7 @@ const module13: ModuleData = {
         { label: 'vyjmenované po S (syn)', options: ['i', 'y'], correct: 'y' },
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 'z' },
       ],
-      explanation: 'P_ŠNÝ — příbuzné po P! S_N — vyjmenované po S! _KAZIL — předpona Z- (zkazit = pokazit).',
+      explanation: 'P_ŠNÝ: příbuzné po P! S_N: vyjmenované po S! _KAZIL: předpona Z- (zkazit = pokazit).',
     },
   ],
 };
@@ -266,25 +266,25 @@ const module14: ModuleData = {
       id: 'm14q1', type: 'A',
       sentence: 'Sova a v_r jsou noční ptáci.',
       options: ['í', 'ý'], correct: 'ý',
-      explanation: 'V_R — vyjmenované slovo VÝR po V, píšeme dlouhé Ý.',
+      explanation: 'V_R: vyjmenované slovo VÝR po V, píšeme dlouhé Ý.',
     },
     {
       id: 'm14q2', type: 'A',
       sentence: 'Ve škole se učíme český jaz_k.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'JAZ_K — vyjmenované slovo JAZYK po Z, píšeme Y.',
+      explanation: 'JAZ_K: vyjmenované slovo JAZYK po Z, píšeme Y.',
     },
     {
       id: 'm14q3', type: 'B',
       sentence: 'Vlci v noci ___.',
       options: ['vyjí', 'vijí', 'vyji', 'viji'], correct: 'vyjí',
-      explanation: 'VYJÍ — příbuzné se slovem VÝT (vyjmenované po V), píšeme Y.',
+      explanation: 'VYJÍ: příbuzné se slovem VÝT (vyjmenované po V), píšeme Y.',
     },
     {
       id: 'm14q4', type: 'C',
       text: 'Brsi přijde léto a bude krásně.',
       isCorrect: false, wrongWord: 'Brsi', correctWord: 'Brzy',
-      explanation: 'BRZ_ — vyjmenované slovo BRZY po Z, píšeme Y!',
+      explanation: 'BRZ_: vyjmenované slovo BRZY po Z, píšeme Y!',
     },
     {
       id: 'm14q5', type: 'D',
@@ -302,7 +302,7 @@ const module14: ModuleData = {
         { label: 'vyjmenované po V (výr)', options: ['í', 'ý'], correct: 'ý' },
         { label: 'příbuzné po V (výt)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'V_R — vyjmenované VÝR po V, dlouhé Ý! V_JÍ — příbuzné se slovem VÝT (po V), krátké Y.',
+      explanation: 'V_R: vyjmenované VÝR po V, dlouhé Ý! V_JÍ: příbuzné se slovem VÝT (po V), krátké Y.',
     },
     {
       id: 'm14q7', type: 'F',
@@ -311,7 +311,7 @@ const module14: ModuleData = {
         { label: 'vyjmenované po Z (jazyk)', options: ['i', 'y'], correct: 'y' },
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 'z' },
       ],
-      explanation: 'JAZ_K — vyjmenované JAZYK po Z! _PÍVAT — předpona Z- (zpívat).',
+      explanation: 'JAZ_K: vyjmenované JAZYK po Z! _PÍVAT: předpona Z- (zpívat).',
     },
     {
       id: 'm14q8', type: 'F',
@@ -321,7 +321,7 @@ const module14: ModuleData = {
         { label: 'vyjmenované po Z (brzy)', options: ['i', 'y'], correct: 'y' },
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 's' },
       ],
-      explanation: 'S_N — vyjmenované SYN po S! BRZ_ — vyjmenované BRZY po Z! _BALÍ — předpona S- (sbalit).',
+      explanation: 'S_N: vyjmenované SYN po S! BRZ_: vyjmenované BRZY po Z! _BALÍ: předpona S- (sbalit).',
     },
     {
       id: 'm14q9', type: 'F',
@@ -331,7 +331,7 @@ const module14: ModuleData = {
         { label: 'vyjmenované po Z (brzy)', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po V (výt)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'V_R — vyjmenované VÝR po V! BRZ_ — vyjmenované BRZY po Z! V_JE — příbuzné se slovem VÝT (po V).',
+      explanation: 'V_R: vyjmenované VÝR po V! BRZ_: vyjmenované BRZY po Z! V_JE: příbuzné se slovem VÝT (po V).',
     },
   ],
 };
@@ -344,32 +344,32 @@ const module15: ModuleData = {
   difficulty: 3,
   badge: 'Detektiv Crypty',
   badgeIcon: '🕵️',
-  description: 'Méně obvyklá vyjmenovaná slova — pýr, lýko, mýval, sysel a další!',
+  description: 'Méně obvyklá vyjmenovaná slova: pýr, lýko, mýval, sysel a další!',
   color: 'from-slate-500 to-gray-700',
   questions: [
     {
       id: 'm15q1', type: 'A',
       sentence: 'Zahradník vytrhuje p_r ze záhonku.',
       options: ['í', 'ý'], correct: 'ý',
-      explanation: 'P_R — vyjmenované slovo PÝR po P, píšeme dlouhé Ý.',
+      explanation: 'P_R: vyjmenované slovo PÝR po P, píšeme dlouhé Ý.',
     },
     {
       id: 'm15q2', type: 'A',
       sentence: 'M_val pere potravu u potoka večer.',
       options: ['í', 'ý'], correct: 'ý',
-      explanation: 'M_VAL — vyjmenované slovo MÝVAL po M, píšeme dlouhé Ý.',
+      explanation: 'M_VAL: vyjmenované slovo MÝVAL po M, píšeme dlouhé Ý.',
     },
     {
       id: 'm15q3', type: 'B',
       sentence: 'Malé zvíře, co žije v norách, se jmenuje ___.',
       options: ['sysel', 'sisel', 'sycel', 'sicel'], correct: 'sysel',
-      explanation: 'SYSEL — vyjmenované slovo po S, píšeme Y.',
+      explanation: 'SYSEL: vyjmenované slovo po S, píšeme Y.',
     },
     {
       id: 'm15q4', type: 'C',
       text: 'Sicharavý vítr fouká z hor.',
       isCorrect: false, wrongWord: 'Sicharavý', correctWord: 'Sychravý',
-      explanation: 'S_CHRAVÝ — vyjmenované slovo SYCHRAVÝ po S, píšeme Y!',
+      explanation: 'S_CHRAVÝ: vyjmenované slovo SYCHRAVÝ po S, píšeme Y!',
     },
     {
       id: 'm15q5', type: 'D',
@@ -387,7 +387,7 @@ const module15: ModuleData = {
         { label: 'vyjmenované po M (mýval)', options: ['í', 'ý'], correct: 'ý' },
         { label: 'vyjmenované po S (sysel)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'M_VAL — vyjmenované MÝVAL po M, dlouhé Ý! S_SEL — vyjmenované SYSEL po S.',
+      explanation: 'M_VAL: vyjmenované MÝVAL po M, dlouhé Ý! S_SEL: vyjmenované SYSEL po S.',
     },
     {
       id: 'm15q7', type: 'F',
@@ -396,7 +396,7 @@ const module15: ModuleData = {
         { label: 'vyjmenované po S (sychravý)', options: ['i', 'y'], correct: 'y' },
         { label: 'vyjmenované po P (pýr)', options: ['í', 'ý'], correct: 'ý' },
       ],
-      explanation: 'S_CHRAVÝ — vyjmenované SYCHRAVÝ po S! P_R — vyjmenované PÝR po P, dlouhé Ý.',
+      explanation: 'S_CHRAVÝ: vyjmenované SYCHRAVÝ po S! P_R: vyjmenované PÝR po P, dlouhé Ý.',
     },
     {
       id: 'm15q8', type: 'F',
@@ -405,7 +405,7 @@ const module15: ModuleData = {
         { label: 'vyjmenované po S (sýček)', options: ['í', 'ý'], correct: 'ý' },
         { label: 'vyjmenované po P (pyl)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'S_ČEK — vyjmenované SÝČEK po S, dlouhé Ý! P_L — vyjmenované PYL po P.',
+      explanation: 'S_ČEK: vyjmenované SÝČEK po S, dlouhé Ý! P_L: vyjmenované PYL po P.',
     },
     {
       id: 'm15q9', type: 'F',
@@ -414,7 +414,7 @@ const module15: ModuleData = {
         { label: 'vyjmenované po L (lýko)', options: ['í', 'ý'], correct: 'ý' },
         { label: 'vyjmenované po P (pýr)', options: ['í', 'ý'], correct: 'ý' },
       ],
-      explanation: 'L_KO — vyjmenované LÝKO po L, dlouhé Ý! P_R — vyjmenované PÝR po P, dlouhé Ý.',
+      explanation: 'L_KO: vyjmenované LÝKO po L, dlouhé Ý! P_R: vyjmenované PÝR po P, dlouhé Ý.',
     },
   ],
 };
@@ -427,32 +427,32 @@ const module16: ModuleData = {
   difficulty: 3,
   badge: 'Trojúhelník Trie',
   badgeIcon: '🔺',
-  description: 'Vyjmenovaná po B, L a M — všechno v jedné větě!',
+  description: 'Vyjmenovaná po B, L a M: všechno v jedné větě!',
   color: 'from-yellow-400 to-orange-500',
   questions: [
     {
       id: 'm16q1', type: 'A',
       sentence: 'Bl_skavice osvětlila celé nebe.',
       options: ['í', 'ý'], correct: 'ý',
-      explanation: 'BL_SKAVICE — příbuzné se slovem BLÝSKAT (vyjmenované po L). Písmeno L je před Ý!',
+      explanation: 'BL_SKAVICE: příbuzné se slovem BLÝSKAT (vyjmenované po L). Písmeno L je před Ý!',
     },
     {
       id: 'm16q2', type: 'A',
       sentence: 'Babička um_la velké okno mýdlem.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'UM_LA — příbuzné se slovem MÝT (vyjmenované po M), píšeme Y.',
+      explanation: 'UM_LA: příbuzné se slovem MÝT (vyjmenované po M), píšeme Y.',
     },
     {
       id: 'm16q3', type: 'B',
       sentence: 'Celý dům byl ___.',
       options: ['blýskavý', 'bliskavý', 'bliščavý', 'blízkavý'], correct: 'blýskavý',
-      explanation: 'BLÝSKAVÝ — příbuzné se slovem BLÝSKAT (vyjmenované po L). L je před Ý.',
+      explanation: 'BLÝSKAVÝ: příbuzné se slovem BLÝSKAT (vyjmenované po L). L je před Ý.',
     },
     {
       id: 'm16q4', type: 'C',
       text: 'Bilina voní a lyžař ji sbírá.',
       isCorrect: false, wrongWord: 'Bilina', correctWord: 'Bylina',
-      explanation: 'B_LINA — příbuzné se slovem BYLINA (vyjmenované po B), píšeme Y!',
+      explanation: 'B_LINA: příbuzné se slovem BYLINA (vyjmenované po B), píšeme Y!',
     },
     {
       id: 'm16q5', type: 'D',
@@ -470,7 +470,7 @@ const module16: ModuleData = {
         { label: 'příbuzné po L (lyžař)', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po M (mýt)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'L_ŽAŘ — příbuzné se slovem LYŽE (po L)! UM_L — příbuzné se slovem MÝT (po M).',
+      explanation: 'L_ŽAŘ: příbuzné se slovem LYŽE (po L)! UM_L: příbuzné se slovem MÝT (po M).',
     },
     {
       id: 'm16q7', type: 'F',
@@ -480,7 +480,7 @@ const module16: ModuleData = {
         { label: 'příbuzné po L (lyžař)', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po M (mýt)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'B_STRÝ — příbuzné po B! L_ŽAŘ — příbuzné po L! UM_JE — příbuzné se slovem MÝT (po M).',
+      explanation: 'B_STRÝ: příbuzné po B! L_ŽAŘ: příbuzné po L! UM_JE: příbuzné se slovem MÝT (po M).',
     },
     {
       id: 'm16q8', type: 'F',
@@ -490,7 +490,7 @@ const module16: ModuleData = {
         { label: 'příbuzné po B (bydlet)', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po L (blýskat)', options: ['í', 'ý'], correct: 'ý' },
       ],
-      explanation: 'M_VAL — vyjmenované MÝVAL po M! B_DLÍ — příbuzné se slovem BYDLET (po B)! BL_SKÁ — příbuzné se slovem BLÝSKAT (po L).',
+      explanation: 'M_VAL: vyjmenované MÝVAL po M! B_DLÍ: příbuzné se slovem BYDLET (po B)! BL_SKÁ: příbuzné se slovem BLÝSKAT (po L).',
     },
     {
       id: 'm16q9', type: 'F',
@@ -499,7 +499,7 @@ const module16: ModuleData = {
         { label: 'příbuzné po B (bylina)', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po L (lyžař)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'B_LINKA — příbuzné se slovem BYLINA (po B)! L_ŽAŘI — příbuzné se slovem LYŽE (po L).',
+      explanation: 'B_LINKA: příbuzné se slovem BYLINA (po B)! L_ŽAŘI: příbuzné se slovem LYŽE (po L).',
     },
   ],
 };
@@ -512,32 +512,32 @@ const module17: ModuleData = {
   difficulty: 3,
   badge: 'Čtyřhvězdný rytíř',
   badgeIcon: '🌟',
-  description: 'Vyjmenovaná po P, S, V a Z — čtyři skupiny najednou!',
+  description: 'Vyjmenovaná po P, S, V a Z: čtyři skupiny najednou!',
   color: 'from-pink-400 to-rose-600',
   questions: [
     {
       id: 'm17q1', type: 'A',
       sentence: 'P_šná princezna si zpívala písničku.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'P_ŠNÁ — příbuzné se slovem PÝCHA (vyjmenované po P), píšeme Y.',
+      explanation: 'P_ŠNÁ: příbuzné se slovem PÝCHA (vyjmenované po P), píšeme Y.',
     },
     {
       id: 'm17q2', type: 'A',
       sentence: 'Brz_ přijde jaro a les ozelení.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'BRZ_ — vyjmenované slovo BRZY po Z, píšeme Y.',
+      explanation: 'BRZ_: vyjmenované slovo BRZY po Z, píšeme Y.',
     },
     {
       id: 'm17q3', type: 'B',
       sentence: 'Sýček sedí na větvi a hlídá plný ___.',
       options: ['pytel', 'pitel', 'pytiel', 'picel'], correct: 'pytel',
-      explanation: 'PYTEL — vyjmenované slovo po P, píšeme Y.',
+      explanation: 'PYTEL: vyjmenované slovo po P, píšeme Y.',
     },
     {
       id: 'm17q4', type: 'C',
       text: 'Sichravý vítr sfouknul list ze stromu.',
       isCorrect: false, wrongWord: 'Sichravý', correctWord: 'Sychravý',
-      explanation: 'S_CHRAVÝ — vyjmenované slovo SYCHRAVÝ po S, píšeme Y!',
+      explanation: 'S_CHRAVÝ: vyjmenované slovo SYCHRAVÝ po S, píšeme Y!',
     },
     {
       id: 'm17q5', type: 'D',
@@ -556,7 +556,7 @@ const module17: ModuleData = {
         { label: 'vyjmenované po S (syn)', options: ['i', 'y'], correct: 'y' },
         { label: 'předpona z-', options: ['s', 'z'], correct: 'z' },
       ],
-      explanation: 'P_ŠNÝ — příbuzné po P! S_N — vyjmenované po S! _PÍVÁ — předpona Z- (zpívat).',
+      explanation: 'P_ŠNÝ: příbuzné po P! S_N: vyjmenované po S! _PÍVÁ: předpona Z- (zpívat).',
     },
     {
       id: 'm17q7', type: 'F',
@@ -565,7 +565,7 @@ const module17: ModuleData = {
         { label: 'vyjmenované po V (výr)', options: ['í', 'ý'], correct: 'ý' },
         { label: 'vyjmenované po S (sýr)', options: ['í', 'ý'], correct: 'ý' },
       ],
-      explanation: 'V_R — vyjmenované VÝR po V! S_R — vyjmenované SÝR po S. Obě mají dlouhé Ý!',
+      explanation: 'V_R: vyjmenované VÝR po V! S_R: vyjmenované SÝR po S. Obě mají dlouhé Ý!',
     },
     {
       id: 'm17q8', type: 'F',
@@ -575,7 +575,7 @@ const module17: ModuleData = {
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 's' },
         { label: 'vyjmenované po P (pyl)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'S_N — vyjmenované SYN po S! _BALIL — předpona S- = dohromady! P_L — vyjmenované PYL po P.',
+      explanation: 'S_N: vyjmenované SYN po S! _BALIL: předpona S- = dohromady! P_L: vyjmenované PYL po P.',
     },
     {
       id: 'm17q9', type: 'F',
@@ -585,7 +585,7 @@ const module17: ModuleData = {
         { label: 'vyjmenované po S (sýr)', options: ['í', 'ý'], correct: 'ý' },
         { label: 'předpona z-', options: ['s', 'z'], correct: 'z' },
       ],
-      explanation: 'V_R — vyjmenované VÝR po V! S_R — vyjmenované SÝR po S! _PÍVÁ — předpona Z- (zpívat).',
+      explanation: 'V_R: vyjmenované VÝR po V! S_R: vyjmenované SÝR po S! _PÍVÁ: předpona Z- (zpívat).',
     },
   ],
 };
@@ -598,32 +598,32 @@ const module18: ModuleData = {
   difficulty: 4,
   badge: 'Architekt Nexu',
   badgeIcon: '🔗',
-  description: 'Předpony s-/z- a vyjmenovaná v jedné větě — pro opravdové experty!',
+  description: 'Předpony s-/z- a vyjmenovaná v jedné větě: pro opravdové experty!',
   color: 'from-teal-400 to-emerald-600',
   questions: [
     {
       id: 'm18q1', type: 'A',
       sentence: 'Maminka _pívá při vaření večeře.',
       options: ['s', 'z'], correct: 'z',
-      explanation: '_PÍVÁ — předpona Z- (zpívat = začátek zpěvu, změna stavu).',
+      explanation: '_PÍVÁ: předpona Z- (zpívat = začátek zpěvu, změna stavu).',
     },
     {
       id: 'm18q2', type: 'A',
       sentence: 'Děti _balily spacáky na tábor.',
       options: ['s', 'z'], correct: 's',
-      explanation: '_BALILY — předpona S- (sbalit = dát věci dohromady).',
+      explanation: '_BALILY: předpona S- (sbalit = dát věci dohromady).',
     },
     {
       id: 'm18q3', type: 'B',
       sentence: 'Pytlák ___ pytel plný pýru.',
       options: ['sbalil', 'zbalil', 'sbolil', 'zbolil'], correct: 'sbalil',
-      explanation: 'SBALIL — předpona S- (sbalit = dohromady). Předpona Z- by byla chybná!',
+      explanation: 'SBALIL: předpona S- (sbalit = dohromady). Předpona Z- by byla chybná!',
     },
     {
       id: 'm18q4', type: 'C',
       text: 'Pytlák zbíral pytel plný pyl.',
       isCorrect: false, wrongWord: 'zbíral', correctWord: 'sbíral',
-      explanation: '_BÍRAL — předpona S- (sbírat = shromažďovat). Předpona Z- by změnila smysl!',
+      explanation: '_BÍRAL: předpona S- (sbírat = shromažďovat). Předpona Z- by změnila smysl!',
     },
     {
       id: 'm18q5', type: 'D',
@@ -642,7 +642,7 @@ const module18: ModuleData = {
         { label: 'vyjmenované po P (pyl)', options: ['i', 'y'], correct: 'y' },
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 'z' },
       ],
-      explanation: '_BALIL — předpona S- = dohromady! P_L — vyjmenované PYL po P! _PÍVÁ — předpona Z- (zpívat).',
+      explanation: '_BALIL: předpona S- = dohromady! P_L: vyjmenované PYL po P! _PÍVÁ: předpona Z- (zpívat).',
     },
     {
       id: 'm18q7', type: 'F',
@@ -652,7 +652,7 @@ const module18: ModuleData = {
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 's' },
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 'z' },
       ],
-      explanation: 'S_N — vyjmenované SYN po S! _BALIL — předpona S-! _PÍVÁ — předpona Z-!',
+      explanation: 'S_N: vyjmenované SYN po S! _BALIL: předpona S-! _PÍVÁ: předpona Z-!',
     },
     {
       id: 'm18q8', type: 'F',
@@ -662,7 +662,7 @@ const module18: ModuleData = {
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 'z' },
         { label: 'vyjmenované po S (syn)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'P_ŠNÝ — příbuzné po P! _KAZIL — předpona Z- = změna stavu! S_N — vyjmenované SYN po S.',
+      explanation: 'P_ŠNÝ: příbuzné po P! _KAZIL: předpona Z- = změna stavu! S_N: vyjmenované SYN po S.',
     },
     {
       id: 'm18q9', type: 'F',
@@ -672,7 +672,7 @@ const module18: ModuleData = {
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 'z' },
         { label: 'vyjmenované po S (syn)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'S_R — vyjmenované SÝR po S, dlouhé Ý! _KAZIL — předpona Z-! S_N — vyjmenované SYN po S.',
+      explanation: 'S_R: vyjmenované SÝR po S, dlouhé Ý! _KAZIL: předpona Z-! S_N: vyjmenované SYN po S.',
     },
   ],
 };
@@ -685,26 +685,26 @@ const module19: ModuleData = {
   difficulty: 4,
   badge: 'Šampion Supremy',
   badgeIcon: '⚡',
-  description: 'Tři různé jevy v jedné větě — nejvyšší obtížnost před finále!',
+  description: 'Tři různé jevy v jedné větě: nejvyšší obtížnost před finále!',
   color: 'from-amber-400 to-yellow-600',
   questions: [
     {
       id: 'm19q1', type: 'A',
       sentence: 'B_strý lyžař zpívá veselou písničku na sjezdovce.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'B_STRÝ — příbuzné se slovem BYSTRÝ (po B). Lyžař (po L) a zpívá (z-) jsou v textu správně.',
+      explanation: 'B_STRÝ: příbuzné se slovem BYSTRÝ (po B). Lyžař (po L) a zpívá (z-) jsou v textu správně.',
     },
     {
       id: 'm19q2', type: 'A',
       sentence: 'Sova v_je a syn ji poslouchá z bytu.',
       options: ['i', 'y'], correct: 'y',
-      explanation: 'V_JE — příbuzné se slovem VÝT (po V). Syn (po S) a bytu (po B) jsou správně napsány.',
+      explanation: 'V_JE: příbuzné se slovem VÝT (po V). Syn (po S) a bytu (po B) jsou správně napsány.',
     },
     {
       id: 'm19q3', type: 'C',
       text: 'Pyšný syn zbalil kufr a zpíval nadšeně.',
       isCorrect: false, wrongWord: 'zbalil', correctWord: 'sbalil',
-      explanation: '_BALIL — předpona S- (sbalit = dohromady)! Pyšný (po P) a syn (po S) jsou správně.',
+      explanation: '_BALIL: předpona S- (sbalit = dohromady)! Pyšný (po P) a syn (po S) jsou správně.',
     },
     {
       id: 'm19q4', type: 'D',
@@ -723,7 +723,7 @@ const module19: ModuleData = {
         { label: 'příbuzné po L (lyžař)', options: ['i', 'y'], correct: 'y' },
         { label: 'příbuzné po M (mýt)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'B_STRÝ — příbuzné po B! L_ŽAŘ — příbuzné po L! UM_JE — příbuzné se slovem MÝT (po M).',
+      explanation: 'B_STRÝ: příbuzné po B! L_ŽAŘ: příbuzné po L! UM_JE: příbuzné se slovem MÝT (po M).',
     },
     {
       id: 'm19q6', type: 'F',
@@ -733,7 +733,7 @@ const module19: ModuleData = {
         { label: 'vyjmenované po S (syn)', options: ['i', 'y'], correct: 'y' },
         { label: 'předpona z-', options: ['s', 'z'], correct: 'z' },
       ],
-      explanation: 'P_ŠNÝ — příbuzné po P! S_N — vyjmenované po S! _PÍVÁ — předpona Z-.',
+      explanation: 'P_ŠNÝ: příbuzné po P! S_N: vyjmenované po S! _PÍVÁ: předpona Z-.',
     },
     {
       id: 'm19q7', type: 'F',
@@ -743,7 +743,7 @@ const module19: ModuleData = {
         { label: 'příbuzné po B (bydlet)', options: ['i', 'y'], correct: 'y' },
         { label: 'předpona s-/z-', options: ['s', 'z'], correct: 's' },
       ],
-      explanation: 'Ž_RAFA — Ž je měkká souhláska, I! B_DLÍ — příbuzné po B! _BALÍ — předpona S- (dohromady).',
+      explanation: 'Ž_RAFA: Ž je měkká souhláska, I! B_DLÍ: příbuzné po B! _BALÍ: předpona S- (dohromady).',
     },
     {
       id: 'm19q8', type: 'F',
@@ -753,7 +753,7 @@ const module19: ModuleData = {
         { label: 'příbuzné po V (výt)', options: ['i', 'y'], correct: 'y' },
         { label: 'vyjmenované po Z (brzy)', options: ['i', 'y'], correct: 'y' },
       ],
-      explanation: 'V_R — vyjmenované VÝR po V! V_JE — příbuzné se slovem VÝT (po V)! BRZ_ — vyjmenované BRZY po Z.',
+      explanation: 'V_R: vyjmenované VÝR po V! V_JE: příbuzné se slovem VÝT (po V)! BRZ_: vyjmenované BRZY po Z.',
     },
     {
       id: 'm19q9', type: 'F',
@@ -763,7 +763,7 @@ const module19: ModuleData = {
         { label: 'příbuzné po L (blýskat)', options: ['í', 'ý'], correct: 'ý' },
         { label: 'vyjmenované po M (mýval)', options: ['í', 'ý'], correct: 'ý' },
       ],
-      explanation: 'Š_ŠKA — Š je měkká souhláska, I! BL_SKAVICE — příbuzné BLÝSKAT po L! M_VALA — vyjmenované MÝVAL po M.',
+      explanation: 'Š_ŠKA: Š je měkká souhláska, I! BL_SKAVICE: příbuzné BLÝSKAT po L! M_VALA: vyjmenované MÝVAL po M.',
     },
   ],
 };
@@ -777,7 +777,7 @@ const module20: ModuleData = {
   difficulty: 4,
   badge: 'Šampion vesmíru',
   badgeIcon: '👑',
-  description: '20 otázek ze všech vesmírných planetů — finální kosmická výzva!',
+  description: '20 otázek ze všech vesmírných planetů: finální kosmická výzva!',
   color: 'from-yellow-400 to-amber-500',
   questions: [], // filled dynamically
 };

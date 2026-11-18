@@ -65,7 +65,7 @@ export interface BlankItem {
 export interface QuestionF {
   id: string;
   type: 'F';
-  sentence: string;      // e.g. "Malá r_ba b_dlí v rybníce." — one _ per blank
+  sentence: string;      // e.g. "Malá r_ba b_dlí v rybníce.": one _ per blank
   blanks: BlankItem[];   // one entry per _ in sentence
   explanation: string;   // shown after answering
 }

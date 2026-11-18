@@ -45,7 +45,7 @@ export default function AppShell() {
     setLastResult(null);
   }
 
-  // Find the next module id — within the same section
+  // Find the next module id: within the same section
   const nextModuleId = lastResult
     ? lastResult.moduleId >= 11 && lastResult.moduleId < 20
       ? lastResult.moduleId + 1

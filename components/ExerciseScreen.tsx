@@ -182,7 +182,7 @@ export default function ExerciseScreen({ moduleId, onFinish, onBack }: Props) {
             <div className="flex items-center gap-4">
               <span className="text-4xl">⚡</span>
               <div>
-                <p className="font-baloo text-lg text-gold font-bold">Na čas — 2 minuty</p>
+                <p className="font-baloo text-lg text-gold font-bold">Na čas: 2 minuty</p>
                 <p className={`font-nunito text-sm ${isSpace ? 'text-white/50' : 'text-foreground/60'}`}>
                   Zvládneš 20 otázek za 2 minuty? Odpovídej rychle!
                 </p>
@@ -231,7 +231,7 @@ export default function ExerciseScreen({ moduleId, onFinish, onBack }: Props) {
           <span className="text-sm">⭐</span>
           <span className="font-baloo text-gold text-sm font-bold">{score}</span>
         </div>
-        {/* Timer — only show in timed mode */}
+        {/* Timer: only show in timed mode */}
         {isTimedMode && (
           <div className={`flex-shrink-0 font-baloo text-base px-3 py-1 rounded-xl border-2 ${
             timerWarning

@@ -64,7 +64,7 @@ export function useProgress() {
       const newProgress = { ...progress, [result.moduleId]: updated };
       setProgress(newProgress);
 
-      // Write immediately — don't rely on useEffect timing (component may unmount first)
+      // Write immediately: don't rely on useEffect timing (component may unmount first)
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(newProgress));
         console.log(`Module ${result.moduleId} saved to localStorage immediately:`, updated);

@@ -9,7 +9,7 @@ interface Props {
   onBack: () => void;
 }
 
-// Orbital positions for the planet map — each planet gets a spot
+// Orbital positions for the planet map: each planet gets a spot
 const PLANET_POSITIONS = [
   { x: 50, y: 82 },  // 11 - bottom center
   { x: 25, y: 72 },  // 12 - bottom left

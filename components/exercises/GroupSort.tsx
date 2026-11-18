@@ -82,7 +82,7 @@ export default function GroupSort({ question, onAnswer, showHints }: Props) {
         ))}
       </div>
 
-      {/* Current word card — shown when there are still pending words */}
+      {/* Current word card: shown when there are still pending words */}
       {!submitted && currentWordIndex !== null && (
         <div className="flex flex-col items-center gap-4 w-full animate-pop-in">
           <div className="bg-white rounded-2xl shadow-md border-2 border-violet-200 px-10 py-6 text-center">
@@ -169,7 +169,7 @@ export default function GroupSort({ question, onAnswer, showHints }: Props) {
           }`}
         >
           <p className="text-xl font-bold">
-            {correct ? '🌟 Perfektní třídění!' : '😅 Pár chyb — ale nevadí!'}
+            {correct ? '🌟 Perfektní třídění!' : '😅 Pár chyb, ale nevadí!'}
           </p>
         </div>
       )}

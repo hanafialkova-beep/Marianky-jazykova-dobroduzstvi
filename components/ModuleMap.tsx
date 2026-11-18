@@ -10,7 +10,7 @@ interface Props {
 }
 
 export default function ModuleMap({ onSelectModule, onBack }: Props) {
-  const { getModuleProgress, isUnlocked, totalStars, unlockAllForTesting } = useProgress();
+  const { getModuleProgress, isUnlocked, totalStars } = useProgress();
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-violet-50 via-background to-amber-50">
@@ -99,16 +99,6 @@ export default function ModuleMap({ onSelectModule, onBack }: Props) {
                     </div>
                   </div>
                 </button>
-
-                {/* Test link for locked final module — outside the button to avoid nesting */}
-                {isLast && !unlocked && (
-                  <button
-                    onClick={unlockAllForTesting}
-                    className="absolute bottom-2 right-3 font-nunito text-[10px] text-gray-300 hover:text-violet/50 underline underline-offset-2 transition-colors"
-                  >
-                    testovat
-                  </button>
-                )}
               </div>
             );
           })}
